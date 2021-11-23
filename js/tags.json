@@ -1,0 +1,27 @@
+[
+	{
+		"id": "01",
+		"color": "#FF033E",
+		"tag": "Desarrollo web"
+	},
+	{
+		"id": "02",
+		"color": "#9966CC",
+		"tag": "CSS"
+	},
+	{
+		"id": "03",
+		"color": "#660066",
+		"tag": "JavasScript"
+		},
+	{
+		"id": "04",
+		"color": "#4169E1",
+		"tag": "Programación y tecnología"
+			},
+	{
+		"id": "05",
+		"color": "#4682B4",
+		"tag": "Ed Team"
+		}
+]
