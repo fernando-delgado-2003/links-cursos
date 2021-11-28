@@ -17,3 +17,6 @@
 			cursos = data;
 			handleCards(data)
 		})
+		.catch(error =>{
+			console.log(error)
+		})

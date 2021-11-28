@@ -8,7 +8,6 @@
 		"img": [true, "https://ed.team/_next/image?url=https%3A%2F%2Fedteam-media.s3.amazonaws.com%2Fcourses%2Fbig%2Ff0601f9d-14f4-464d-8f42-7a2119af9c8a.png&w=1080&q=75"],
 		"idTags": ["01", "03", "04", "05"],
 		"fav": true
-
 	},
 	{
 		"id": "c_02",
@@ -19,8 +18,6 @@
 		"img": [true, "https://ed.team/_next/image?url=https%3A%2F%2Fedteam-media.s3.amazonaws.com%2Fcourses%2Fbig%2Fadf98e70-ade6-465e-b32c-2544b0bbded2.png&w=1080&q=75"],
 		"idTags": ["01", "02", "05"],
 		"fav": true
-
-
 	},
 	{
 		"id": "c_03",
@@ -30,8 +27,6 @@
 		"link_mega": "",
 		"img": [true, "https://ed.team/_next/image?url=https%3A%2F%2Fedteam-media.s3.amazonaws.com%2Fcourses%2Fbig%2F8571372f-8098-4b1b-8ef0-714a3cc0f8e6.png&w=1080&q=75"],
 		"idTags": ["01", "05", "04"]
-
-
 	},
 	{
 		"id": "c_04",
@@ -42,9 +37,6 @@
 		"img": [true, "https://ed.team/_next/image?url=https%3A%2F%2Fedteam-media.s3.amazonaws.com%2Fcourses%2Fbig%2F38c0b392-4eaf-44e1-b7ae-c038acb0b52e.jpg&w=1080&q=75"],
 		"idTags": ["01", "05", "04"],
 		"fav": true
-
-
-
 	},
 	{
 		"id": "c_05",
@@ -84,14 +76,14 @@
 		"img": [true, "https://i.imgur.com/x1iW2Pc.jpg"],
 		"idTags": ["04", "07"]
 	},
-	 {
+	{
 		"id": "c_09",
 		"name": "Flutter Intermedio: Diseños profesionales y animaciones",
 		"description": "Aprenderas a hacer Widgets, Sliders, CustomPainter, AnimationBuilder, Provider, Temas, Slideshow, Progress, Slivers, Tablets y más ..",
 		"link_drive": "http://fumacrom.com/33kNp",
 		"link_mega": "",
 		"img": [true, "https://i.imgur.com/9y9txfr.jpg"],
-		"idTags": ["04","06"]
+		"idTags": ["04", "06"]
 	},
 	{
 		"id": "c_10",
@@ -100,17 +92,36 @@
 		"link_drive": "http://fumacrom.com/349rP",
 		"link_mega": "",
 		"img": [true, "https://i.imgur.com/jZtbUI0.jpg"],
-		"idTags": ["04","05"]
+		"idTags": ["04", "05", "01"]
 	},
-		{
+	{
 		"id": "c_11",
 		"name": "Node.js desde cero",
 		"description": "Aprende a crear aplicaciones con JavaScript en el lado del servidor.",
 		"link_drive": "http://fumacrom.com/34CYJ",
 		"link_mega": "",
 		"img": [true, "https://i.imgur.com/7m6t1iH.jpg"],
-		"idTags": ["04","05"],
+		"idTags": ["04", "05"],
 		"fav": true
-
+	},
+	{
+		"id": "c_12",
+		"name": "CSS desde cero",
+		"description": "Haz hermosa la web con el único lenguaje creado para diseño.",
+		"link_drive": "http://fumacrom.com/34u1n",
+		"link_mega": "",
+		"img": [true, "https://i.imgur.com/25XGQEb.jpg"],
+		"idTags": ["04", "02", "05", "01"],
+		"fav": true
+	},
+	{
+		"id": "c_13",
+		"name": "Inglés desde cero",
+		"description": "Aprende las bases del lenguaje que te abre las puertas en cualquier parte del mundo.",
+		"link_drive": "http://fumacrom.com/34uLN",
+		"link_mega": "",
+		"img": [true, "https://i.imgur.com/tmSUw1m.jpg"],
+		"idTags": ["05"],
+		"fav": true
 	}
 ]
