@@ -36,7 +36,7 @@ fetch("../js/data/cursos.json")
 			${
 				resFilter[0]["link_drive"] != "" ?
 				`			
-				<a href="${resFilter[0]["link_drive"]}">
+				<a href="${resFilter[0]["link_drive"]}"  target="_blank">
 					<img src="../logos/drive.png" alt="" />
 					<span>Descargar en Drive</span>
 				</a>
