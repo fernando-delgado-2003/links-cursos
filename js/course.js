@@ -24,20 +24,19 @@ fetch("../js/data/cursos.json")
 			})
 		}
 		document.querySelector("title").innerHTML = resFilter[0].name;
-		document.querySelector("head").insertAdjacentHTML("beforeend", `
-			<!-- Global site tag (gtag.js) - Google Analytics -->
-			<script async src="https://www.googletagmanager.com/gtag/js?id=G-L1TVN6349M"></script>
-			<script >
-				window.dataLayer = window.dataLayer || [];
-		
-			function gtag() { dataLayer.push(arguments); }
-			gtag('js', new Date());
-		
-			gtag('config', 'G-L1TVN6349M');
-			</script>
-		
-		`)
+let script = document.createElement("script"),
+script2 = document.createElement("script");
+script.src= "https://www.googletagmanager.com/gtag/js?id=G-L1TVN6349M"
+script.async="true";
+script2.type = "text/javascript";
+script2.text = `
+window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-L1TVN6349M')`;
+  document.getElementsByTagName('head')[0].appendChild(script)
+document.getElementsByTagName('head')[0].appendChild(script2)
 		document.querySelector("main").innerHTML = `
 		<div class="course">
 			<img src="${resFilter[0]["img"][1]}" alt="" />
