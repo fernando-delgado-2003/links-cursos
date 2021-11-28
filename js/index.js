@@ -11,9 +11,9 @@
 	const d = document;
 		var allTags = null,
 		cursos = null;
-	fetch('../js/cursos.json')
+	fetch('../js/data/cursos.json')
 		.then(res => res.json())
 		.then(data => {
 			cursos = data;
-			//handleCards(data)
+			handleCards(data)
 		})

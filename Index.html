@@ -9,12 +9,11 @@
 	<link rel="stylesheet" href="css/normalize.min.css" type="text/css" />
 	<link rel="stylesheet" href="css/index.css" type="text/css" />
 </head>
-
 <body>
 	<header>
 		<a href="#">FreeWeb</a>
-		<form action="" method="get" accept-charset="utf-8">
-			<input type="search" name="search" id="search" />
+		<form action="course/" method="get">
+			<input type="search" name="q" id="search" />
 			<div class="list-search">
 				<ul>
 				</ul>
@@ -24,19 +23,23 @@
 			</button>
 		</form>
 	</header>
+	<div class="search-counter">
+	</div>
 	<main class="cards">
+		
 		<div class="loader">
 			<span class="circle"></span>
 			<span class="circle"></span>
 			<span class="circle"></span>
 			
 		</div>
+		
 	</main>
 	<noscript>
 		Esta pagina web necesita Javascript para funcionar correctamente
 	</noscript>
 	<script src="js/index.js" type="module" charset="utf-8"></script>
-	<script src="js/search.js" type="text/javascript" charset="utf-8">
+	<script src="js/search-bar.js" type="text/javascript" charset="utf-8">
 	</script>
 </body>
 

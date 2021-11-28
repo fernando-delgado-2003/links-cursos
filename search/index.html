@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+	<link rel="stylesheet" href="../css/normalize.min.css" type="text/css" />
+	<link rel="stylesheet" href="../css/index.css" type="text/css" />
+</head>
+
+<body>
+	<style>
+		.wrap-line {
+			display: inline;
+			position: relative;
+		}
+
+		.wrap-line .line {
+			width: 90%;
+			display: inline-block;
+			height: 2px;
+			position: relative;
+			bottom: 0;
+			left: 0;
+		}
+	</style>
+	<header>
+		<a href="#">FreeWeb</a>
+		<form action="./" method="get" accept-charset="utf-8">
+			<input type="search" name="q" id="search" />
+			<div class="list-search">
+				<ul>
+				</ul>
+			</div>
+			<button type="submit">
+				<i class='bx bx-search-alt'></i>
+			</button>
+		</form>
+	</header>
+	<div class="wrap-title">
+	</div>
+	<div class="search-counter">
+	</div>
+	<main class="cards">
+	</main>
+	<script src="../js/search.js" type="module" charset="utf-8"></script>
+</body>
+
+</html>

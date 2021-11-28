@@ -1,0 +1,116 @@
+[
+	{
+		"id": "c_01",
+		"name": "JavaScript en el navegador",
+		"description": "JavaScript es un lenguaje que vive en el navegador y nos permite manipular el DOM.",
+		"link_drive": "http://fumacrom.com/31c2t",
+		"link_mega": "",
+		"img": [true, "https://ed.team/_next/image?url=https%3A%2F%2Fedteam-media.s3.amazonaws.com%2Fcourses%2Fbig%2Ff0601f9d-14f4-464d-8f42-7a2119af9c8a.png&w=1080&q=75"],
+		"idTags": ["01", "03", "04", "05"],
+		"fav": true
+
+	},
+	{
+		"id": "c_02",
+		"name": "Responsive Web Design",
+		"description": "Diseña sitios web y aplicaciones que se vean perfectas en cualquier tamaño de pantalla.",
+		"link_drive": "http://fumacrom.com/31c7V",
+		"link_mega": "",
+		"img": [true, "https://ed.team/_next/image?url=https%3A%2F%2Fedteam-media.s3.amazonaws.com%2Fcourses%2Fbig%2Fadf98e70-ade6-465e-b32c-2544b0bbded2.png&w=1080&q=75"],
+		"idTags": ["01", "02", "05"],
+		"fav": true
+
+
+	},
+	{
+		"id": "c_03",
+		"name": "TypeScript Desde Cero",
+		"description": "Lleva JavaScript al siguiente nivel con tipado estático, nuevas características y programación orientada a objetos.",
+		"link_drive": "http://fumacrom.com/31cBu",
+		"link_mega": "",
+		"img": [true, "https://ed.team/_next/image?url=https%3A%2F%2Fedteam-media.s3.amazonaws.com%2Fcourses%2Fbig%2F8571372f-8098-4b1b-8ef0-714a3cc0f8e6.png&w=1080&q=75"],
+		"idTags": ["01", "05", "04"]
+
+
+	},
+	{
+		"id": "c_04",
+		"name": "SEO Desde Cero",
+		"description": "Aprende a estructurar un sitio web para que Google se enamore de él",
+		"link_drive": "http://fumacrom.com/31cD6",
+		"link_mega": "",
+		"img": [true, "https://ed.team/_next/image?url=https%3A%2F%2Fedteam-media.s3.amazonaws.com%2Fcourses%2Fbig%2F38c0b392-4eaf-44e1-b7ae-c038acb0b52e.jpg&w=1080&q=75"],
+		"idTags": ["01", "05", "04"],
+		"fav": true
+
+
+
+	},
+	{
+		"id": "c_05",
+		"name": "Google Analytics Desde Cero",
+		"description": "Aprende a analizar las visitas a tu sitio y el comportamiento de tus usuarios para convertirlos en clientes.",
+		"link_drive": "http://fumacrom.com/31cEw",
+		"link_mega": "",
+		"img": [true, "https://ed.team/_next/image?url=https%3A%2F%2Fedteam-media.s3.amazonaws.com%2Fcourses%2Fbig%2F0e142783-9e13-41a5-829b-cb84801c8b8f.png&w=1080&q=75"],
+		"idTags": ["01", "05", "04"]
+
+	},
+	{
+		"id": "c_06",
+		"name": "Enrutamiento de Redes",
+		"description": "Aprenderás cómo hace su trabajo un router en una red pequeña.",
+		"link_drive": "http://fumacrom.com/32axz",
+		"link_mega": "",
+		"img": [true, "https://ed.team/_next/image?url=https%3A%2F%2Fedteam-media.s3.amazonaws.com%2Fcourses%2Fbig%2F61514891-66e9-4cc2-b5e5-e7f6c9a62e64.png&w=1080&q=75"],
+		"idTags": ["04", "05"]
+
+	},
+	{
+		"id": "c_07",
+		"name": "Aprende Programación en C++ (Básico - Intermedio - Avanzado)",
+		"description": "Si eres un apasionado de la programación, este curso te interesa. aprenderás desde las bases hasta lo avanzado en C++",
+		"link_drive": "http://fumacrom.com/33CJM",
+		"link_mega": "",
+		"img": [true, "https://i.imgur.com/SwWKT3H.jpg"],
+		"idTags": ["04", "06"]
+
+	}, {
+		"id": "c_08",
+		"name": "Aprende a programar con Python (Edición 2020)",
+		"description": "",
+		"link_drive": "http://fumacrom.com/33CVs",
+		"link_mega": "",
+		"img": [true, "https://i.imgur.com/x1iW2Pc.jpg"],
+		"idTags": ["04", "07"]
+	},
+	 {
+		"id": "c_09",
+		"name": "Flutter Intermedio: Diseños profesionales y animaciones",
+		"description": "Aprenderas a hacer Widgets, Sliders, CustomPainter, AnimationBuilder, Provider, Temas, Slideshow, Progress, Slivers, Tablets y más ..",
+		"link_drive": "http://fumacrom.com/33kNp",
+		"link_mega": "",
+		"img": [true, "https://i.imgur.com/9y9txfr.jpg"],
+		"idTags": ["04","06"]
+	},
+	{
+		"id": "c_10",
+		"name": "SVG Desde Cero",
+		"description": "Crea gráficos vectoriales para la web usando código e interactua con ellos con CSS y JavaScript",
+		"link_drive": "http://fumacrom.com/349rP",
+		"link_mega": "",
+		"img": [true, "https://i.imgur.com/jZtbUI0.jpg"],
+		"idTags": ["04","05"]
+	},
+		{
+		"id": "c_11",
+		"name": "Node.js desde cero",
+		"description": "Aprende a crear aplicaciones con JavaScript en el lado del servidor.",
+		"link_drive": "http://fumacrom.com/34CYJ",
+		"link_mega": "",
+		"img": [true, "https://i.imgur.com/7m6t1iH.jpg"],
+		"idTags": ["04","05"],
+		"fav": true
+
+	}
+]

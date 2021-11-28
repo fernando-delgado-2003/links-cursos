@@ -23,5 +23,15 @@
 		"id": "05",
 		"color": "#4682B4",
 		"tag": "Ed Team"
+		},
+		{
+			"id": "06",
+			"color": "#8037FF",
+			"tag": "Udemy"
+		},
+		{
+			"id": "07",
+			"color": "#FF2877",
+			"tag": "MASTERMIND"
 		}
 ]

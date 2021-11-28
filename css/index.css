@@ -48,7 +48,8 @@ header form input[type="search"] {
 	outline: none;
 }
 
-.loader {
+.loader,
+.error {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -66,7 +67,7 @@ header form input[type="search"] {
 
 .loader .circle:nth-child(1) {
 	animation: scale-loader 1s linear infinite;
-animation-delay: 0ms;
+	animation-delay: 0ms;
 }
 
 .loader .circle:nth-child(2) {
@@ -76,7 +77,30 @@ animation-delay: 0ms;
 
 .loader .circle:nth-child(3) {
 	animation: scale-loader 1s linear infinite;
-animation-delay: 600ms
+	animation-delay: 600ms
+}
+
+.error {
+	flex-direction: column;
+}
+
+.error p {
+	font-size: 1.2rem;
+	text-align: center;
+	margin: .2rem 0;
+}
+
+.error svg {
+	width: 30px;
+	height: 30px;
+}
+
+.error svg path {
+	fill: #D01D36;
+}
+
+.search-counter {
+	text-align: center;
 }
 
 .cards {
@@ -120,10 +144,10 @@ animation-delay: 600ms
 	border-radius: .5rem;
 }
 
-.card .row-left .tags>a {
+.card .row-left .tags>a,
+.course .tags > a {
 	text-decoration: none;
 	font-size: .7rem;
-	background: blue;
 	color: #fff;
 	border-radius: .3rem;
 	margin-left: .3rem;
@@ -133,11 +157,13 @@ animation-delay: 600ms
 
 }
 
-.card .row-left .tags a:first-child {
+.card .row-left .tags a:first-child,
+.course .tags a:first-child{
 	margin-left: 0
 }
 
-.card .row-left .tags {
+.card .row-left .tags,
+.course .tags{
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -151,6 +177,25 @@ animation-delay: 600ms
 	margin-bottom: 0;
 }
 
+.course{
+	width: 70%;
+}
+.course .tags{
+	justify-content: flex-start
+}
+aside{
+	width: 30%;
+}
+.course img{
+	width: 90%;
+	text-align: center;
+}
+.course h1{
+	font-size: 1.4rem;
+}
+.course .links a img{
+	width: 30px;
+}
 @keyframes scale-loader {
 	from {
 		transform: scale(1.1);
