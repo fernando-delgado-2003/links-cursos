@@ -26,7 +26,7 @@ fetch("../js/data/cursos.json")
 		document.querySelector("title").innerHTML = resFilter[0].name;
 let script = document.createElement("script"),
 script2 = document.createElement("script");
-script.src= "https://www.googletagmanager.com/gtag/js?id=G-L1TVN6349M"
+script.src= "https://www.googletagmanager.com/gtag/js?id=G-WYZCGRY9JV"
 script.async="true";
 script2.type = "text/javascript";
 script2.text = `
@@ -34,7 +34,7 @@ window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-L1TVN6349M')`;
+  gtag('config', 'G-WYZCGRY9JV');`;
   document.getElementsByTagName('head')[0].appendChild(script)
 document.getElementsByTagName('head')[0].appendChild(script2)
 		document.querySelector("main").innerHTML = `
