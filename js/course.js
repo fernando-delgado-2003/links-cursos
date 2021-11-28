@@ -23,7 +23,7 @@ fetch("../js/data/cursos.json")
 				})
 			})
 		}
-
+		document.querySelector("title").innerHTML = resFilter[0].name;
 		document.querySelector("main").innerHTML = `
 		<div class="course">
 			<img src="${resFilter[0]["img"][1]}" alt="" />
