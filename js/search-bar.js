@@ -1,4 +1,4 @@
-let input = document.querySelector("input[type='search']"),
+let input = document.querySelector("input[type='text']"),
 	form = document.querySelector("form"),
 	dataForm = new FormData(form);
 

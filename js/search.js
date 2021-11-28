@@ -5,7 +5,6 @@
 			id = params.get('id'),
 			query = params.get("q"),
 			count = 0;
-			console.log(id)
 			id == null && query == null ? location.href = "../" : "";
 
 		if (id != null) {

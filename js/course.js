@@ -4,6 +4,7 @@ let params = new URLSearchParams(location.search),
 	id = params.get('id'),
 	allTags = null,
 	templateTags = "";
+			id == null? location.href = "../" : "";
 
 fetch("../js/data/cursos.json")
 	.then(data => data.json())
@@ -12,6 +13,7 @@ fetch("../js/data/cursos.json")
 		allTags = allTags == null ? JSON.parse(localStorage.getItem("tags")) : allTags;
 
 		let resFilter = res.filter(curse => curse.id == id);
+		resFilter.length == 0 ? location.href="../" : "";
 		if (allTags != null) {
 			resFilter[0].idTags.forEach((id) => {
 				allTags.forEach((tag) => {
