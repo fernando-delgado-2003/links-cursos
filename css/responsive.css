@@ -1,0 +1,58 @@
+@media(max-width:700px) {
+	header form {
+		margin-left: 1rem;
+	}
+
+	header form input[type="search"] {
+		width: 100%;
+	}
+
+	header form .list-search {
+		position: absolute;
+	}
+
+
+}
+
+@media(max-width: 800px) {
+	.cards .card {
+
+
+		flex-direction: column;
+		text-align: center;
+
+	}
+
+	.card .row {
+		width: 100%;
+		margin: 0;
+	}
+}
+
+@media(max-width: 550px) {
+	.cards .card {
+		width: calc(100% / 2 - 20px);
+		margin: 10px;
+	}
+
+	.wrap-course {
+		width: 100%;
+		padding-bottom: 2rem;
+	}
+
+	aside {
+		width: 100%;
+		position: static;
+		padding: 20px;
+	}
+	aside ul li{
+		margin: 5px
+	}
+}
+
+@media(max-width: 450px) {
+	.cards .card {
+		width: 100%;
+		margin: 20px;
+	}
+}

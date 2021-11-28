@@ -210,9 +210,6 @@ header form input[type="search"] {
 .course p{
 	color: #484848
 }
-.couse .links {
-
-}
 .course .links a img {
 	width: 30px;
 	margin: 0 auto;
@@ -237,6 +234,7 @@ aside {
 }
 
 aside ul li {
+display: inline-block;
 	border-radius: .3rem;
 	box-shadow: 0px 0px 4px 2px #FAFAFA, 0px 0px 6px 3px #FAFAFA;
 	margin-bottom: .8rem;
@@ -245,7 +243,7 @@ aside ul li {
 }
 
 aside ul li a {
-	display: block;
+	display: inline-block;
 	text-decoration: none;
 	color: #000;
 	padding: .4rem;
@@ -263,28 +261,3 @@ aside ul li a {
 	}
 }
 
-@media(max-width:700px) {
-	header form {
-		margin-left: 1rem;
-	}
-
-	header form input[type="search"] {
-		width: 100%;
-	}
-
-	header form .list-search {
-		position: absolute;
-	}
-
-	.cards .card {
-		width: 100%;
-		flex-direction: column;
-		text-align: center;
-
-	}
-
-	.card .row {
-		width: 100%;
-		margin: 0;
-	}
-}
