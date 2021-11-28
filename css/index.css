@@ -4,6 +4,11 @@
 	box-sizing: border-box
 }
 
+ul {
+	list-style: none;
+	padding: 0;
+}
+
 body {
 	font-family: 'Poppins', sans-serif;
 }
@@ -116,12 +121,14 @@ header form input[type="search"] {
 	overflow: hidden;
 	padding: .8rem;
 	display: flex;
-	align-items: center
+	align-items: center;
 }
 
 .card a {
 	text-decoration: none;
 	color: #000;
+	cursor: pointer;
+
 }
 
 .card .row-left {
@@ -145,7 +152,7 @@ header form input[type="search"] {
 }
 
 .card .row-left .tags>a,
-.course .tags > a {
+.course .tags>a {
 	text-decoration: none;
 	font-size: .7rem;
 	color: #fff;
@@ -158,12 +165,12 @@ header form input[type="search"] {
 }
 
 .card .row-left .tags a:first-child,
-.course .tags a:first-child{
+.course .tags a:first-child {
 	margin-left: 0
 }
 
 .card .row-left .tags,
-.course .tags{
+.course .tags {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -177,25 +184,73 @@ header form input[type="search"] {
 	margin-bottom: 0;
 }
 
-.course{
-	width: 70%;
+.wrap-course {
+	width: 68%;
+	display: inline-block;
+	position: relative;
+	padding: 0 2rem;
 }
-.course .tags{
+
+.course .tags {
+	margin: 1.2rem 0;
 	justify-content: flex-start
 }
-aside{
-	width: 30%;
+
+.course > img {
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+	border-radius: .5rem;
+
 }
-.course img{
-	width: 90%;
-	text-align: center;
+
+.course h1 {
+	font-size: 1.6rem;
 }
-.course h1{
-	font-size: 1.4rem;
+.course p{
+	color: #484848
 }
-.course .links a img{
+.couse .links {
+
+}
+.course .links a img {
 	width: 30px;
+	margin: 0 auto;
 }
+
+.course .links a {
+		display: inline-flex;
+	justify-content: center;
+	flex-direction: column;
+	text-decoration: none;
+	list-style: none;
+	text-align: center;
+	color: #000;
+} 
+
+aside {
+	width: 28%;
+	position: absolute;
+	top: 5rem;
+	left: 68%;
+	display: inline-block;
+}
+
+aside ul li {
+	border-radius: .3rem;
+	box-shadow: 0px 0px 4px 2px #FAFAFA, 0px 0px 6px 3px #FAFAFA;
+	margin-bottom: .8rem;
+	cursor: pointer;
+
+}
+
+aside ul li a {
+	display: block;
+	text-decoration: none;
+	color: #000;
+	padding: .4rem;
+}
+
 @keyframes scale-loader {
 	from {
 		transform: scale(1.1);

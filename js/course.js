@@ -1,18 +1,14 @@
+import { handleCards, getTags } from './module/module.js'
+
 let params = new URLSearchParams(location.search),
 	id = params.get('id'),
 	allTags = null,
-	templateTags= "";
-
-getTags()
-	.then((res) => {
-		localStorage.setItem("tags", JSON.stringify(res))
-		allTags = res;
-	})
-
+	templateTags = "";
 
 fetch("../js/data/cursos.json")
 	.then(data => data.json())
 	.then(res => {
+		handleAside(res)
 		allTags = allTags == null ? JSON.parse(localStorage.getItem("tags")) : allTags;
 
 		let resFilter = res.filter(curse => curse.id == id);
@@ -40,6 +36,7 @@ fetch("../js/data/cursos.json")
 				`			
 				<a href="${resFilter[0]["link_drive"]}">
 					<img src="../logos/drive.png" alt="" />
+					<span>Descargar en Drive</span>
 				</a>
 				`
 				:
@@ -49,9 +46,7 @@ fetch("../js/data/cursos.json")
 				resFilter[0]["link_mega"] !="" ? 
 				`
 				<a href="${resFilter[0]["link_mega"]}">
-					<div class="logo-container-mega">
 						<img src="../logos/mega.png" alt="" />
-					</div>
 				</a>
 
 				`
@@ -61,19 +56,54 @@ fetch("../js/data/cursos.json")
 			</div>
 		</div>
 	`;
+
+		let intRandom = [],
+			intervalo = res.length,
+			max = 6;
+		for (let i = 0; intRandom.length <= intervalo - 1; i++) {
+			let intGenerate = generateRandomInt(intervalo);
+			if (intRandom.length < max) {
+
+				if (!intRandom.some(int => int == intGenerate)) {
+					intRandom.push(intGenerate)
+				}
+			} else {
+				intervalo = max
+			}
+		}
+		let dataFilterCards = [];
+		for (let i = 0; i < res.length; i++) {
+			for (let k = 0; k < intRandom.length; k++) {
+				if (i == intRandom[k]) {
+dataFilterCards.push(res[i])
+				}
+			}
+		}
+handleCards(dataFilterCards)
+
+
+
+
 	})
 
-function getTags() {
-	return new Promise((resolve, reject) => {
+function handleAside(data) {
+	let templateFav = "";
+	let fav = data.filter(curse => curse.fav);
+	for (let i = 0; i < fav.length; i++) {
+		templateFav += `
+				<li><a href="/course/?id=${fav[i].id}">${fav[i].name}</a></li>
+		`;
+	}
+	document.querySelector(".wrap-fav").innerHTML = `
+			<div class="wrap-title-section">
+				<strong>Populares</strong>
+			</div>
+			<ul>
+			</ul>
+	`;
+	document.querySelector(".wrap-fav ul").innerHTML = templateFav;
+}
 
-		fetch('../js/data/tags.json')
-			.then(res => res.json())
-			.then(data => {
-				resolve(data)
-			})
-			.catch((error) => {
-				reject(error)
-			})
-	})
-
+function generateRandomInt(max) {
+	return Math.floor(Math.random() * max);
 }

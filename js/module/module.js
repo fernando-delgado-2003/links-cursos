@@ -63,7 +63,7 @@ function handleCards(data) {
 		}
 
 	})
-	if (data.length != 0 ) {
+	if (data.length != 0) {
 		document.querySelector(".search-counter").innerHTML = `
 				<p>Se encontraron ${data.length} resultados</p>
 		`;
