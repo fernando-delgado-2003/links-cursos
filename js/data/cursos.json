@@ -150,5 +150,23 @@
 		"link_mega": "",
 		"img": [true, "https://i.imgur.com/w9lNyQg.jpg"],
 		"idTags": ["01", "04", "05"]
+	},
+	{
+		"id": "c_17",
+		"name": "Flexbox y Grid",
+		"description": "Aprende a diseñar interfaces flexibles con flexbox, el sistema que utilizan todos los frameworks CSS.",
+		"link_drive": "http://fumacrom.com/350xW",
+		"link_mega": "",
+		"img": [true, "https://i.imgur.com/2Puf24y.jpg"],
+		"idTags": ["01", "04", "05"]
+	},
+		{
+		"id": "c_18",
+		"name": "WordPress desde Cero",
+		"description": "Diseña el sitio web de tu negocio de manera profesional con WordPress partiendo desde lo más básico y sin necesidad de saber programar.",
+		"link_drive": "http://fumacrom.com/3510l",
+		"link_mega": "",
+		"img": [true, "https://i.imgur.com/9JBI0ea.jpg"],
+		"idTags": ["01", "05", "04"]
 	}
 ]
