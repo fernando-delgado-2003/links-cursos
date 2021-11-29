@@ -124,13 +124,31 @@
 		"idTags": ["05"],
 		"fav": true
 	},
-		{
+	{
 		"id": "c_14",
 		"name": "HTML canvas desde cero",
 		"description": "Aprende a crear tus propios gráficos 2D y 3D, animaciones y composiciones con JavaScript dentro de HTML.",
 		"link_drive": "http://fumacrom.com/34xHV",
 		"link_mega": "",
-		"img": [true, "https://ed.team/_next/image?url=https%3A%2F%2Fedteam-media.s3.amazonaws.com%2Fcourses%2Fbig%2Fc574aade-f5b4-42ae-9d92-6b05e7919f4d.png&w=1080&q=75"],
-		"idTags": ["01", "04","05"]
+		"img": [true, "https://i.imgur.com/BGSG2uA.jpg"],
+		"idTags": ["01", "04", "05"]
+	},
+	{
+		"id": "c_15",
+		"name": "Figma desde cero",
+		"description": "Aprende la principal herramienta de diseño y prototipado colaborativo y en tiempo real del mercado.",
+		"link_drive": "http://fumacrom.com/34ze9",
+		"link_mega": "",
+		"img": [true, "https://i.imgur.com/Jm0UsUN.jpg"],
+		"idTags": ["01", "04", "05"]
+	},
+		{
+		"id": "c_16",
+		"name": "MySQL",
+		"description": "Aprende a crear y administrar bases de datos con el motor de código abierto más popular de la web.",
+		"link_drive": "http://fumacrom.com/34zo8",
+		"link_mega": "",
+		"img": [true, "https://i.imgur.com/w9lNyQg.jpg"],
+		"idTags": ["01", "04", "05"]
 	}
 ]
