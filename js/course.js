@@ -4,7 +4,7 @@ let params = new URLSearchParams(location.search),
 	id = params.get('id'),
 	allTags = null,
 	templateTags = "";
-			id == null? location.href = "../" : "";
+id == null ? location.href = "../" : "";
 
 fetch("../js/data/cursos.json")
 	.then(data => data.json())
@@ -13,7 +13,7 @@ fetch("../js/data/cursos.json")
 		allTags = allTags == null ? JSON.parse(localStorage.getItem("tags")) : allTags;
 
 		let resFilter = res.filter(curse => curse.id == id);
-		resFilter.length == 0 ? location.href="../" : "";
+		resFilter.length == 0 ? location.href = "../" : "";
 		if (allTags != null) {
 			resFilter[0].idTags.forEach((id) => {
 				allTags.forEach((tag) => {
@@ -24,19 +24,19 @@ fetch("../js/data/cursos.json")
 			})
 		}
 		document.querySelector("title").innerHTML = resFilter[0].name;
-let script = document.createElement("script"),
-script2 = document.createElement("script");
-script.src= "https://www.googletagmanager.com/gtag/js?id=G-WYZCGRY9JV"
-script.async="true";
-script2.type = "text/javascript";
-script2.text = `
+		let script = document.createElement("script"),
+			script2 = document.createElement("script");
+		script.src = "https://www.googletagmanager.com/gtag/js?id=G-WYZCGRY9JV"
+		script.async = "true";
+		script2.type = "text/javascript";
+		script2.text = `
 window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
   gtag('config', 'G-WYZCGRY9JV');`;
-  document.getElementsByTagName('head')[0].appendChild(script)
-document.getElementsByTagName('head')[0].appendChild(script2)
+		document.getElementsByTagName('head')[0].appendChild(script)
+		document.getElementsByTagName('head')[0].appendChild(script2)
 		document.querySelector("main").innerHTML = `
 		<div class="course">
 			<img src="${resFilter[0]["img"][1]}" alt="" />
@@ -90,11 +90,11 @@ document.getElementsByTagName('head')[0].appendChild(script2)
 		for (let i = 0; i < res.length; i++) {
 			for (let k = 0; k < intRandom.length; k++) {
 				if (i == intRandom[k]) {
-dataFilterCards.push(res[i])
+					dataFilterCards.push(res[i])
 				}
 			}
 		}
-handleCards(dataFilterCards)
+		handleCards(dataFilterCards)
 
 
 

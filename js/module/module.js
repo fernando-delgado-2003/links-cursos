@@ -70,7 +70,7 @@ function handleCards(data) {
 		document.querySelector(".cards").innerHTML = templateCards;
 		let scriptAdsense = document.createElement("script");
 		scriptAdsense.async="true";
-		scriptAdsense.crossorigin="anonymous"
+		scriptAdsense.setAttribute("crossorigin", "anonymous")
 		scriptAdsense.src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9856463646155508";
   	document.getElementsByTagName('head')[0].appendChild(scriptAdsense)
 
