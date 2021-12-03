@@ -1,10 +1,23 @@
 @media(max-width:700px) {
-	header form {
-		margin-left: 1rem;
+	.header {
+
+		position: relative;
 	}
 
-	header form input[type="search"] {
+	.header .wrap-menu-hamburger {
+		top: 1rem;
+		right: 1rem;
+		position: absolute;
+	}
+
+	.menu-links {
 		width: 100%;
+		justify-content: center;
+	}
+
+	.menu-links>.menu-item {
+
+		margin: 0 .5rem;
 	}
 
 	header form .list-search {
@@ -12,6 +25,12 @@
 	}
 
 
+}
+
+@media(max-width: 900px) {
+	form {
+		width: 250px;
+	}
 }
 
 @media(max-width: 800px) {
@@ -29,6 +48,57 @@
 	}
 }
 
+@media(max-width: 670px) {
+
+	.header form {
+		width: auto;
+		display: flex;
+		justify-content: center;
+		border: none;
+		position: relative;
+		z-index: 1;
+		overflow: visible;
+	}
+
+	.header form input[type="text"] {
+
+		position: absolute;
+		width: 50vw;
+		border: 1px solid #000;
+		padding: .6rem 1rem;
+		right: -600px;
+		top: 3rem;
+		visibility: 0;
+		transition: all 600ms ease-in-out;
+		border: 1px solid #AFAFB4;
+		border-radius: .4rem;
+		display: none;
+	}
+
+	.header form input[type="text"].active {
+		display: flex;
+animation: animationInput 1s forwards;
+	}
+
+	.header form button i {
+		color: #000;
+	}
+}
+
+@media(max-width: 600px) {
+	.hero {
+		flex-direction: column-reverse;
+	}
+
+	.hero .row {
+		width: 100%;
+	}
+
+	.hero .row img {
+		border-radius: 0;
+	}
+}
+
 @media(max-width: 550px) {
 	.cards .card {
 		width: calc(100% / 2 - 20px);
@@ -37,7 +107,6 @@
 
 	.wrap-course {
 		width: 100%;
-		padding-bottom: 2rem;
 	}
 
 	aside {
@@ -45,14 +114,56 @@
 		position: static;
 		padding: 20px;
 	}
-	aside ul li{
-		margin: 5px
-	}
+
 }
 
 @media(max-width: 450px) {
 	.cards .card {
 		width: 100%;
 		margin: 20px;
+	}
+}
+
+@media(max-width: 520px) {
+	.header {
+		padding: .5rem 1rem;
+	}
+
+	.menu-links>.menu-item {
+		margin: 0 .6rem;
+		width: 100px;
+	}
+}
+
+@media(max-width: 400px) {
+	.header>a {
+		font-size: 1.25rem;
+	}
+
+	.menu-links>.menu-item {
+		font-size: .85rem;
+		width: 80px;
+	}
+}
+@keyframes animationInput {
+	1%{
+		display: block;
+	}
+	
+	100%{
+		right: calc(25vw - 2rem);
+		visibility: 1;
+	}
+}
+@keyframes animationInputClose {
+	from{
+				display: block;
+
+		right: calc(25vw - 2rem);
+		visibility: 1;
+	}
+	to{
+		display: block;
+		right: -600px;
 	}
 }

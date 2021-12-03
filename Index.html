@@ -5,48 +5,77 @@
 	<title>Cursos gratis</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Encontraras cursos completamente gratis">
+	<meta name="author" content="FreeWev">
 	<link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
 	<link rel="stylesheet" href="css/normalize.min.css" type="text/css" />
 	<link rel="stylesheet" href="css/index.css" type="text/css" />
 	<link rel="stylesheet" href="css/responsive.css" type="text/css" />
-<!--
+	<!--
  Global site tag (gtag.js) - Google Analytics 
 -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-WYZCGRY9JV"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-WYZCGRY9JV"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
 
-  gtag('config', 'G-WYZCGRY9JV');
-</script>
+		gtag('config', 'G-WYZCGRY9JV');
+	</script>
 </head>
+
 <body>
-	<header>
+	<header class="header">
 		<a href="/">WebFree</a>
-		<form action="course/" method="get">
-			<input type="text" name="q" id="search" />
-			<div class="list-search">
-				<ul>
-				</ul>
-			</div>
-			<button type="submit">
-				<i class='bx bx-search-alt'></i>
+		<nav>
+			<ul class="menu-links">
+				<li class="menu-item">
+					Categorías <i class='bx bx-down-arrow'></i>
+					<ul class="menu-inside">
+						<li class="menu-item"><a href="/search/?id=01">Desarrollo web</a></li>
+						<li class="menu-item"><a href="/search/?id=04">Programación y tecnología</a></li>
+					</ul>
+				</li>
+				<li class="menu-item">
+					Cursos <i class='bx bx-down-arrow'></i>
+					<ul class="menu-inside">
+						<li class="menu-item"><a href="/search/?id=05">Ed Team</a></li>
+						<li class="menu-item"><a href="/search/?id=06">Udemy</a></li>
+						<li class="menu-item"><a href="/search/?id=07">Mastermind</a></li>
+					</ul>
+				</li>
+			</ul>
+		</nav>
+		<form action="course/" method="get" class="clickOutside">
+			<input type="text" name="q" id="search" class="clickOutside" />
+			<button type="submit" class="btn-search" class="clickOutside">
+				<i class='bx bx-search-alt clickOutside'></i>
+				
 			</button>
 		</form>
+		<div class="wrap-menu-hamburger active">
+			<i class='bx bx-menu'></i>
+		</div>
 	</header>
+	<section class="hero">
+		<div class="row row-left">
+			<h1>WebFree</h1>
+			<p>Puedes descargar cursos gratis de Edteam, Platzi, Udemy y otros desde nuestra página web</p>
+			<p>Descargas en Google Drive, Mega</p>
+		</div>
+		<div class="row row-rigth">
+			<img src="img/hero.jpg" alt="" />
+		</div>
+	</section>
 	<div class="search-counter">
 	</div>
 	<main class="cards">
-		
 		<div class="loader">
 			<span class="circle"></span>
 			<span class="circle"></span>
 			<span class="circle"></span>
-			
 		</div>
-		
 	</main>
 	<noscript>
 		Esta pagina web necesita Javascript para funcionar correctamente

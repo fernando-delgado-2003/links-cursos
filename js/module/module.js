@@ -42,20 +42,20 @@ function handleCards(data) {
 			nameFilter = item.name.toLowerCase().replace(/[^\w\s]/gi, "").replace(/[ ]/g, "-");
 			templateCards += `
 		<article class="card">
-				<div class="row row-left">
+				<header class="row row-left">
 					<a href="/course/?id=${item.id}">
 					 <img src="${item.img[0] ? item.img[1] : ''}" alt="${item.name}" />
 					</a>
 					<div class="tags">
 						${templateTags}
 					</div>
-				</div>
-				<div class="row row-rigth">
+				</header>
+				<footer class="row row-rigth">
 					<a href="/course/?id=${item.id}">
 						<h2 class="card-title">${item.name}</h2>
 						<p class="card-description">${item.description}</p>
 					</a>
-				</div>
+				</footer>
 		</article>
 		`;
 			templateTags = "";
@@ -68,12 +68,14 @@ function handleCards(data) {
 				<p>Se encontraron ${data.length} resultados</p>
 		`;
 		document.querySelector(".cards").innerHTML = templateCards;
-		let scriptAdsense = document.createElement("script");
-		scriptAdsense.async="true";
-		scriptAdsense.setAttribute("crossorigin", "anonymous")
-		scriptAdsense.src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9856463646155508";
-  	document.getElementsByTagName('head')[0].appendChild(scriptAdsense)
 
+		if (location.pathname != "/search/") {
+			let scriptAdsense = document.createElement("script");
+			scriptAdsense.async = "true";
+			scriptAdsense.setAttribute("crossorigin", "anonymous")
+			scriptAdsense.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9856463646155508";
+			document.getElementsByTagName('head')[0].appendChild(scriptAdsense)
+		}
 	} else {
 		document.querySelector(".search-counter").innerHTML = `
 				<p>Se encontraron ${data.length} resultados</p>

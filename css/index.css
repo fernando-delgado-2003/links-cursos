@@ -9,18 +9,137 @@ ul {
 	padding: 0;
 }
 
-body {
-	font-family: 'Poppins', sans-serif;
+a {
+	text-decoration: none;
 }
 
-header {
+body {
+	font-family: 'Poppins', sans-serif;
+
+}
+
+.header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 1.5rem 2rem;
+	padding: .5rem 2rem;
+	background: rgba(223, 229, 229, .2);
+
+	}
+
+
+.wrap-menu-hamburger{
+	display: none;
+	font-size: 2rem;
+}
+/*
+.wrap-menu-hamburger {
+	width: 20px;
+	height: 20px;
+	position: relative;
+	overflow: hidden;
 }
 
-header>a {
+.wrap-menu-hamburger .line {
+	width: 50px;
+	height: 2px;
+	background: #000000;
+	margin: 2.5px;
+}
+
+.wrap-menu-hamburger .line-1 {
+	top: 0;
+	left: 0
+}
+
+.wrap-menu-hamburger .line-2 {
+	top: 6px;
+	left: 0;
+}
+
+.wrap-menu-hamburger .line-3 {
+	top: 12px;
+	left: 0;
+}
+
+.wrap-menu-hamburger.active .line-1 {
+	transform: rotate(-25deg) translate(25px,-25px)
+}
+
+.wrap-menu-hamburger.active .line-2 {
+	transform: translateY(100px)
+}
+.wrap-menu-hamburger.active .line-3 {
+	transform: rotate(25deg)
+}
+*/
+nav,
+.menu-links {
+	display: flex;
+
+}
+.menu-links{
+}
+.menu-links>.menu-item {
+display: flex;
+	text-align: center;
+	margin-right: 5px;
+
+
+}
+.menu-links>.menu-item i{
+				margin-left: 5px;
+}
+.menu-item {
+	position: relative;
+	width: 150px;
+
+}
+
+.menu-item li a {
+	color: #000;
+
+}
+
+.menu-links>.menu-item:hover .menu-inside {
+	--clip: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+
+}
+
+.menu-inside {
+	position: absolute;
+	top: 2.9rem;
+	left: 0;
+	overflow: hidden;
+	transition: clip-path .5s ease-in-out;
+	background: #FAFAFA;
+	border-radius: .3rem;
+	box-shadow: 0 0 2px 3px #FAFAFA;
+	--clip: polygon(0 0, 100% 0, 100% 0%, 0% 0%);
+	clip-path: var(--clip);
+	z-index: 10;
+}
+
+.menu-inside .menu-item {
+	text-align: start
+}
+
+.menu-inside li:hover a {
+	background: #E9E9E9;
+	color: #000;
+}
+
+.menu-inside li a {
+	color: #2C2C2C;
+	display: block;
+	padding: .6rem 1rem;
+	background: transparent;
+	transition: background 500ms linear;
+	outline: none;
+	border-radius: .3rem;
+}
+
+.header>a {
 	text-decoration: none;
 	color: #000;
 	font-size: 1.5rem;
@@ -28,7 +147,7 @@ header>a {
 	cursor: pointer;
 }
 
-header form button {
+.header form button {
 	background: none;
 	border: none;
 	display: flex;
@@ -36,7 +155,7 @@ header form button {
 	align-items: center;
 }
 
-header form {
+.header form {
 	display: flex;
 	position: relative;
 	border: 1px solid #D3D3D3;
@@ -47,11 +166,44 @@ header form {
 
 }
 
-header form input[type="text"] {
+.header form input[type="text"] {
 	border: none;
 	width: 100%;
 	padding: .5rem 2rem .5rem .5rem;
 	outline: none;
+}
+
+.hero {
+	display: flex;
+	align-items: center;
+	text-align: center;
+}
+
+.hero .row-left {
+	padding: 1rem;
+}
+
+.hero .row {
+	width: 50%;
+}
+
+.hero img {
+	width: 100%;
+	border-radius: .7rem 0 0 .7rem;
+}
+
+.hero h1 {
+	font-size: 2.5rem;
+	margin: .5rem 0;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.hero p {
+	font-size: 1rem;
+	margin: 0 0 .4rem 0;
+	font-weight: 300;
+	letter-spacing: .8px;
 }
 
 .loader,
@@ -107,6 +259,7 @@ header form input[type="text"] {
 
 .search-counter {
 	text-align: center;
+	padding-top: 1rem;
 }
 
 .cards {
@@ -189,7 +342,7 @@ header form input[type="text"] {
 	width: 68%;
 	display: inline-block;
 	position: relative;
-	padding: 0 2rem;
+	padding: 0 2rem 4rem 2rem;
 }
 
 .course .tags {
@@ -197,7 +350,7 @@ header form input[type="text"] {
 	justify-content: flex-start
 }
 
-.course > img {
+.course>img {
 	width: 100%;
 	display: block;
 	margin: 0 auto;
@@ -208,23 +361,44 @@ header form input[type="text"] {
 .course h1 {
 	font-size: 1.6rem;
 }
-.course p{
+
+.course p {
 	color: #484848
 }
+
 .course .links a img {
 	width: 30px;
 	margin: 0 auto;
 }
 
 .course .links a {
-		display: inline-flex;
+	display: inline-flex;
 	justify-content: center;
 	flex-direction: column;
 	text-decoration: none;
 	list-style: none;
 	text-align: center;
 	color: #000;
-} 
+}
+
+.course .more-courses {
+	padding: 1rem;
+	background: #67697A;
+	border-radius: .4rem;
+		text-align: center;
+
+	margin: 1rem auto;
+}
+.course .more-courses h4{
+	font-size: 1.1rem;
+	color: #fff;
+	margin: .4rem; 
+}
+.course .more-courses span a {
+	color: #F6F6F6;
+	text-transform: uppercase;
+	letter-spacing: .8px;
+}
 
 aside {
 	width: 28%;
@@ -235,7 +409,7 @@ aside {
 }
 
 aside ul li {
-display: inline-block;
+	display: inline-block;
 	border-radius: .3rem;
 	box-shadow: 0px 0px 4px 2px #FAFAFA, 0px 0px 6px 3px #FAFAFA;
 	margin-bottom: .8rem;
@@ -261,4 +435,3 @@ aside ul li a {
 		opacity: 0;
 	}
 }
-

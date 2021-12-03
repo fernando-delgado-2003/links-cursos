@@ -12,17 +12,53 @@ fetch("../js/data/cursos.json")
 		handleAside(res)
 		allTags = allTags == null ? JSON.parse(localStorage.getItem("tags")) : allTags;
 
-		let resFilter = res.filter(curse => curse.id == id);
+		let resFilter = res.filter(curse => curse.id == id),
+			idTagsCourse = "";
 		resFilter.length == 0 ? location.href = "../" : "";
 		if (allTags != null) {
-			resFilter[0].idTags.forEach((id) => {
-				allTags.forEach((tag) => {
-					if (id == tag.id) {
-						templateTags += `<a href="/search/?id=${tag.id}" style="background: ${tag.color};">${tag.tag}</a>`;
+			idTagsCourse = resFilter[0].idTags.filter((id) => {
+				for (let i = 0; i < allTags.length; i++) {
+					if (id == allTags[i].id) {
+						templateTags += `<a href="/search/?id=${allTags[i].id}" style="background: ${allTags[i].color};">${allTags[i].tag}</a>`;
+						return true
+
 					}
-				})
+				}
 			})
 		}
+// GENERAMOS UN NUMERO ALEATORIO EN BASE AL LARGO DE TAGS QUE TIENE EL CURSO
+/*	
+		let indexRandom = generateRandomInt(idTagsCourse.length),
+		templateMoreCourse= "",
+		filterMoreCourse=[],
+		k = 0;
+			filterMoreCourse = res.filter((item) => {
+				for (let i = 0; i < item.idTags.length; i++) {
+					if(item.idTags[i] == idTagsCourse[indexRandom]){
+						if(k < idTagsCourse.length){
+							k++
+									return true
+						}
+					}
+				}
+			})
+			filterMoreCourse = filterMoreCourse.sort(function() {return Math.random() - 0.5});
+		for(let i = 0; i <= idTagsCourse.length-1; i++){
+			console.log(filterMoreCourse[i])
+			if(filterMoreCourse[i] != undefined){
+				
+			templateMoreCourse+=`
+			${i == 0 ? "<h4>Sugerencias</h4>" : ""}
+			<span>
+				<a href="./?id=${filterMoreCourse[i].id}">
+					${filterMoreCourse[i].name} ${i < idTagsCourse.length-1 ? "," : ""}
+				</a>
+			</span>
+			`;
+			}
+
+		}
+		*/
 		document.querySelector("title").innerHTML = resFilter[0].name;
 		let script = document.createElement("script"),
 			script2 = document.createElement("script");
@@ -30,11 +66,12 @@ fetch("../js/data/cursos.json")
 		script.async = "true";
 		script2.type = "text/javascript";
 		script2.text = `
-window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+			window.dataLayer = window.dataLayer || [];
+  		function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+  		gtag('config', 'G-WYZCGRY9JV');
+  `;
 
-  gtag('config', 'G-WYZCGRY9JV');`;
 		document.getElementsByTagName('head')[0].appendChild(script)
 		document.getElementsByTagName('head')[0].appendChild(script2)
 		document.querySelector("main").innerHTML = `
@@ -121,4 +158,8 @@ function handleAside(data) {
 
 function generateRandomInt(max) {
 	return Math.floor(Math.random() * max);
+}
+
+function handleMoreCourses(data) {
+
 }
