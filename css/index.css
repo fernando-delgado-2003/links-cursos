@@ -92,6 +92,7 @@ display: flex;
 				margin-left: 5px;
 }
 .menu-item {
+	background: #FAFAFA;
 	position: relative;
 	width: 150px;
 
@@ -113,7 +114,6 @@ display: flex;
 	left: 0;
 	overflow: hidden;
 	transition: clip-path .5s ease-in-out;
-	background: red;
 	border-radius: .5rem;
 	overflow: hidden;
 	box-shadow: 0 0 2px 3px #FAFAFA;
