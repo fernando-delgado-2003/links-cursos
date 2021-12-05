@@ -79,6 +79,7 @@ nav,
 
 }
 .menu-links{
+	
 }
 .menu-links>.menu-item {
 display: flex;
@@ -112,8 +113,9 @@ display: flex;
 	left: 0;
 	overflow: hidden;
 	transition: clip-path .5s ease-in-out;
-	background: #FAFAFA;
-	border-radius: .3rem;
+	background: red;
+	border-radius: .5rem;
+	overflow: hidden;
 	box-shadow: 0 0 2px 3px #FAFAFA;
 	--clip: polygon(0 0, 100% 0, 100% 0%, 0% 0%);
 	clip-path: var(--clip);
@@ -121,7 +123,7 @@ display: flex;
 }
 
 .menu-inside .menu-item {
-	text-align: start
+	text-align: start;
 }
 
 .menu-inside li:hover a {
@@ -398,6 +400,30 @@ display: flex;
 	color: #F6F6F6;
 	text-transform: uppercase;
 	letter-spacing: .8px;
+}
+.course .wrap-social-media {
+	display: flex;
+	margin: 1rem 0;
+}
+.course .wrap-social-media a{
+	border: 2px solid #FAFAFA;
+	border-radius: 1rem;
+	font-size: 1.5rem;
+	padding: .5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 1rem;
+}
+.course .wrap-social-media a.facebook{
+	color: #0574E7;
+}
+.course .wrap-social-media a.whatsapp{
+	color: #4BDA66;
+}
+
+.course .wrap-social-media a.twitter{
+	color: #1D9BF0;
 }
 
 aside {

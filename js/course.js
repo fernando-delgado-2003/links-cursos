@@ -106,6 +106,14 @@ fetch("../js/data/cursos.json")
 				""
 			}
 			</div>
+			<div class="wrap-social-media">
+				<a href="https://www.facebook.com/sharer.php?u=https://wfrs.netlify.app/${resFilter[0].slug}" class="facebook">
+					<i class='bx bxl-facebook'></i>
+				</a>
+				<a href="https://api.whatsapp.com/send?text=https://wfrs.netlify.app/${resFilter[0].slug}" class="whatsapp">
+					<i class='bx bxl-whatsapp' ></i>
+				</a>
+			</div>
 		</div>
 	`;
 
