@@ -98,6 +98,4 @@ function handleCards(data) {
 
 
 
-
-
 export { getTags, handleCards };
