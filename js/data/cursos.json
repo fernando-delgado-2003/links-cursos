@@ -246,13 +246,13 @@
 	},
 		{
 			"id": "c_24",
-			"name": "",
-			"description": "",
-			"link_drive": "",
+			"name": "HTML Desde Cero",
+			"description": "Domina el lenguaje con el que se construye toda la web",
+			"link_drive": "http://fumacrom.com/38v6D",
 			"link_mega": "",
-			"img": [true, ""],
+			"img": [true, "https://i.imgur.com/oUifkrh.jpg"],
 			"idTags": ["01", "04", "05"],
-			"slug": ""
+			"slug": "html_desde_0"
 		}
 
 
