@@ -12,9 +12,10 @@
 			fetch('../js/data/cursos.json')
 				.then(res => res.json())
 				.then(data => {
+		let filterDataRandom = data.sort(function() {return Math.random() - 0.5});
 
 
-					curses = data.filter((curse) => {
+					curses = filterDataRandom.filter((curse) => {
 						for (let i = 0; i < curse.idTags.length; i++) {
 							if (curse.idTags[i] == id) {
 								return true
@@ -36,10 +37,11 @@
 			fetch("../js/data/cursos.json")
 				.then(res => res.json())
 				.then(data => {
+							let filterDataRandom = data.sort(function() {return Math.random() - 0.5});
 				let dataFilter = [];
 					if (query[0] != '') {
 
-						dataFilter = data.filter((item) => {
+						dataFilter = filterDataRandom.filter((item) => {
 							let nameSlipt = item.name.toLowerCase().replace(/[^\w\s]/gi, "").trim().split(" ");
 
 							for (let i = 0; i < nameSlipt.length; i++) {
