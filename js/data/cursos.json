@@ -135,7 +135,7 @@
 		"img": [true, "https://i.imgur.com/tmSUw1m.jpg"],
 		"idTags": ["05"],
 		"fav": true,
-				"slug": "ingles_edteam"
+		"slug": "ingles_edteam"
 
 	},
 	{
@@ -146,7 +146,7 @@
 		"link_mega": "",
 		"img": [true, "https://i.imgur.com/BGSG2uA.jpg"],
 		"idTags": ["01", "04", "05"],
-				"slug": "html_canvas_edteam"
+		"slug": "html_canvas_edteam"
 
 	},
 	{
@@ -157,10 +157,10 @@
 		"link_mega": "",
 		"img": [true, "https://i.imgur.com/Jm0UsUN.jpg"],
 		"idTags": ["01", "04", "05"],
-				"slug": "figma_edteam"
+		"slug": "figma_edteam"
 
 	},
-		{
+	{
 		"id": "c_16",
 		"name": "MySQL",
 		"description": "Aprende a crear y administrar bases de datos con el motor de código abierto más popular de la web.",
@@ -168,7 +168,7 @@
 		"link_mega": "",
 		"img": [true, "https://i.imgur.com/w9lNyQg.jpg"],
 		"idTags": ["01", "04", "05"],
-				"slug": "mysql_edteam"
+		"slug": "mysql_edteam"
 
 	},
 	{
@@ -179,10 +179,10 @@
 		"link_mega": "",
 		"img": [true, "https://i.imgur.com/2Puf24y.jpg"],
 		"idTags": ["01", "04", "05"],
-				"slug": "flex_box_y_grid"
+		"slug": "flex_box_y_grid"
 
 	},
-		{
+	{
 		"id": "c_18",
 		"name": "WordPress desde Cero",
 		"description": "Aprenderas a diseñar sitios web de negocio de manera profesional con WordPress partiendo desde lo más básico y sin necesidad de saber programar.",
@@ -190,7 +190,40 @@
 		"link_mega": "",
 		"img": [true, "https://i.imgur.com/9JBI0ea.jpg"],
 		"idTags": ["01", "05", "04"],
-				"slug": "wordpress_edteam"
+		"slug": "wordpress_edteam"
 
+	},
+	{
+		"id": "c_19",
+		"name": "Tipos de datos en Java",
+		"description": "Aprende sobre los distintos tipos de datos en Java.",
+		"link_drive": "http://fumacrom.com/38Uxd",
+		"link_mega": "",
+		"img": [true, "https://i.imgur.com/XTOfLoG.jpg"],
+		"idTags": ["01", "04", "05"],
+		"slug": "tipos_de_datos"
+	},
+	{
+		"id": "c_20",
+		"name": "CSS Avanzado",
+		"description": "Aprende a profundidad los diversos módulos que tiene CSS3.",
+		"link_drive": "http://fumacrom.com/38YAP",
+		"link_mega": "",
+		"img": [true, "https://i.imgur.com/eEa7h6p.jpg"],
+		"idTags": ["01", "04", "05"],
+		"slug": "css_avanzado"
+
+	},
+	{
+		"id": "c_21",
+		"name": "React desde cero (2021)",
+		"description": "Crea interfaces de usuario reutilizables y basadas en componentes con la librería para el desarrollo frontend más usada en el mundo.",
+		"link_drive": "http://fumacrom.com/37m3M",
+		"link_mega": "",
+		"img": [true, "https://i.imgur.com/oo2ZYFJ.jpg"],
+		"idTags": ["01", "04", "05"],
+		"slug": "react_desde_0_2021"
 	}
+
+
 ]
