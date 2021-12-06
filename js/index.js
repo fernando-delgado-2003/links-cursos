@@ -14,8 +14,8 @@
 	fetch('../js/data/cursos.json')
 		.then(res => res.json())
 		.then(data => {
-			cursos = data;
-			handleCards(data)
+		let filterDataRandom = data.sort(function() {return Math.random() - 0.5});
+			handleCards(filterDataRandom)
 		})
 		.catch(error =>{
 			console.log(error)

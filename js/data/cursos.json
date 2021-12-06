@@ -210,7 +210,7 @@
 		"link_drive": "http://fumacrom.com/38YAP",
 		"link_mega": "",
 		"img": [true, "https://i.imgur.com/eEa7h6p.jpg"],
-		"idTags": ["01", "04", "05"],
+		"idTags": ["01", "04", "05", "02"],
 		"slug": "css_avanzado"
 
 	},
@@ -221,7 +221,7 @@
 		"link_drive": "http://fumacrom.com/37m3M",
 		"link_mega": "",
 		"img": [true, "https://i.imgur.com/oo2ZYFJ.jpg"],
-		"idTags": ["01", "04", "05"],
+		"idTags": ["01", "04", "05","03"],
 		"slug": "react_desde_0_2021"
 	}
 
