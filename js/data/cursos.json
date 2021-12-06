@@ -201,7 +201,7 @@
 		"link_mega": "",
 		"img": [true, "https://i.imgur.com/XTOfLoG.jpg"],
 		"idTags": ["01", "04", "05"],
-		"slug": "tipos_de_datos"
+		"slug": "tipos_de_datos_java"
 	},
 	{
 		"id": "c_20",
@@ -221,9 +221,39 @@
 		"link_drive": "http://fumacrom.com/37m3M",
 		"link_mega": "",
 		"img": [true, "https://i.imgur.com/oo2ZYFJ.jpg"],
-		"idTags": ["01", "04", "05","03"],
+		"idTags": ["01", "04", "05", "03"],
 		"slug": "react_desde_0_2021"
-	}
+	},
+	{
+		"id": "c_22",
+		"name": "Electrónica desde cero",
+		"description": "Ingresa al mundo de la electrónica y comprende lo que pasa detrás de cada aparato electrónico que usas.",
+		"link_drive": "http://fumacrom.com/38cyQ",
+		"link_mega": "",
+		"img": [true, "https://i.imgur.com/h5MaJxv.jpg"],
+		"idTags": ["05"],
+		"slug": "electronica_desde_0"
+		},
+	{
+		"id": "c_23",
+		"name": "Linux desde cero",
+		"description": "Aprende a utilizar Linux y sus herramientas entendiendo los conceptos que hay detrás del sistema operativo.",
+		"link_drive": "http://fumacrom.com/38d51",
+		"link_mega": "",
+		"img": [true, "https://i.imgur.com/Ofcqaml.jpg"],
+		"idTags": ["05"],
+		"slug": "linux_desde_0"
+	},
+		{
+			"id": "c_24",
+			"name": "",
+			"description": "",
+			"link_drive": "",
+			"link_mega": "",
+			"img": [true, ""],
+			"idTags": ["01", "04", "05"],
+			"slug": ""
+		}
 
 
 ]
