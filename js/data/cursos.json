@@ -5,7 +5,7 @@
 		"description": "JavaScript es un lenguaje que vive en el navegador y nos permite manipular el DOM.",
 		"link_drive": "http://fumacrom.com/31c2t",
 		"link_mega": "",
-		"img": [true, "https://ed.team/_next/image?url=https%3A%2F%2Fedteam-media.s3.amazonaws.com%2Fcourses%2Fbig%2Ff0601f9d-14f4-464d-8f42-7a2119af9c8a.png&w=1080&q=75"],
+		"img": [true, "https://i.imgur.com/SgYCPcX.jpg"],
 		"idTags": ["01", "03", "04", "05"],
 		"fav": true,
 		"slug": "js_edteam"
@@ -16,7 +16,7 @@
 		"description": "Diseña sitios web y aplicaciones que se vean perfectas en cualquier tamaño de pantalla.",
 		"link_drive": "http://fumacrom.com/31c7V",
 		"link_mega": "",
-		"img": [true, "https://ed.team/_next/image?url=https%3A%2F%2Fedteam-media.s3.amazonaws.com%2Fcourses%2Fbig%2Fadf98e70-ade6-465e-b32c-2544b0bbded2.png&w=1080&q=75"],
+		"img": [true, "https://i.imgur.com/tZwhL6x.jpg"],
 		"idTags": ["01", "02", "05"],
 		"fav": true,
 		"slug": "responsive_web_design_edteam"
@@ -27,7 +27,7 @@
 		"description": "Lleva JavaScript al siguiente nivel con tipado estático, nuevas características y programación orientada a objetos.",
 		"link_drive": "http://fumacrom.com/31cBu",
 		"link_mega": "",
-		"img": [true, "https://ed.team/_next/image?url=https%3A%2F%2Fedteam-media.s3.amazonaws.com%2Fcourses%2Fbig%2F8571372f-8098-4b1b-8ef0-714a3cc0f8e6.png&w=1080&q=75"],
+		"img": [true, "https://i.imgur.com/FqhMv6q.jpg"],
 		"idTags": ["01", "05", "04"],
 		"slug": "typescript_edteam"
 	},
@@ -48,7 +48,7 @@
 		"description": "Aprende a analizar las visitas a tu sitio y el comportamiento de tus usuarios para convertirlos en clientes.",
 		"link_drive": "http://fumacrom.com/31cEw",
 		"link_mega": "",
-		"img": [true, "https://ed.team/_next/image?url=https%3A%2F%2Fedteam-media.s3.amazonaws.com%2Fcourses%2Fbig%2F0e142783-9e13-41a5-829b-cb84801c8b8f.png&w=1080&q=75"],
+		"img": [true, "https://i.imgur.com/Jew19Qx.jpg"],
 		"idTags": ["01", "05", "04"],
 		"slug": "google_analytics_edteam"
 
@@ -222,7 +222,7 @@
 		"link_mega": "",
 		"img": [true, "https://i.imgur.com/oo2ZYFJ.jpg"],
 		"idTags": ["01", "04", "05", "03"],
-		"slug": "react_desde_0_2021"
+		"slug": "react_desde_cero_2021"
 	},
 	{
 		"id": "c_22",
@@ -232,7 +232,7 @@
 		"link_mega": "",
 		"img": [true, "https://i.imgur.com/h5MaJxv.jpg"],
 		"idTags": ["05"],
-		"slug": "electronica_desde_0"
+		"slug": "electronica_desde_cero"
 	},
 	{
 		"id": "c_23",
@@ -242,7 +242,7 @@
 		"link_mega": "",
 		"img": [true, "https://i.imgur.com/Ofcqaml.jpg"],
 		"idTags": ["05"],
-		"slug": "linux_desde_0"
+		"slug": "linux_desde_cero"
 	},
 	{
 		"id": "c_24",
@@ -252,7 +252,7 @@
 		"link_mega": "",
 		"img": [true, "https://i.imgur.com/oUifkrh.jpg"],
 		"idTags": ["01", "04", "05"],
-		"slug": "html_desde_0"
+		"slug": "html_desde_cero"
 	},
 		{
 		"id": "c_25",
@@ -262,7 +262,7 @@
 		"link_mega": "",
 		"img": [true, "https://i.imgur.com/TczMN8l.jpg"],
 		"idTags": ["01", "04", "05"],
-		"slug": "unity_desde_0"
+		"slug": "unity_desde_cero"
 	},
 		{
 		"id": "c_26",
@@ -272,6 +272,16 @@
 		"link_mega": "",
 		"img": [true, "https://i.imgur.com/CYnu5kK.jpg"],
 		"idTags": ["01", "04", "05"],
-		"slug": "angular_desde_0"
+		"slug": "angular_desde_cero"
+	},
+			{
+		"id": "c_27",
+		"name": "Arduino desde cero",
+		"description": "Aprende a usar la plataforma de desarrollo de hardware libre más usada de los sistemas embebidos y automatiza tus proyectos electrónicos.",
+		"link_drive": "http://fumacrom.com/3Bm8w",
+		"link_mega": "",
+		"img": [true, "https://i.imgur.com/b6oJK6W.jpg"],
+		"idTags": ["04", "05"],
+		"slug": "arduino_desde_cero"
 	}
 ]
