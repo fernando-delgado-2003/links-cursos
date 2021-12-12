@@ -284,5 +284,15 @@
 		"idTags": ["04", "05"],
 		"slug": "arduino_desde_cero"
 		
+	},
+			{
+		"id": "c_28",
+		"name": "Flutter desde cero",
+		"description": "Aprende a desarrollar aplicaciones móviles con el Framework desarrollado por Google.",
+		"link_drive": "http://fumacrom.com/3C8me",
+		"link_mega": "",
+		"img": [true, "https://i.imgur.com/RMeCS6R.jpg"],
+		"idTags": ["04", "05"],
+		"slug": "flutter_desde_cero"
 	}
 ]
