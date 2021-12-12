@@ -1,7 +1,7 @@
 {
   "redirects": [
     { 
-      "source": "/",
+      "source": "/js_desde_cero",
       "destination": "/course/?id=c_01", 
       "permanent": true
     }
