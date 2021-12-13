@@ -19,7 +19,7 @@
 		"img": [true, "https://i.imgur.com/tZwhL6x.jpg"],
 		"idTags": ["01", "02", "05"],
 		"fav": true,
-		"slug": "responsive_web_design_edteam"
+		"slug": "responsive_web_design"
 	},
 	{
 		"id": "c_03",
@@ -40,7 +40,7 @@
 		"img": [true, "https://ed.team/_next/image?url=https%3A%2F%2Fedteam-media.s3.amazonaws.com%2Fcourses%2Fbig%2F38c0b392-4eaf-44e1-b7ae-c038acb0b52e.jpg&w=1080&q=75"],
 		"idTags": ["01", "05", "04"],
 		"fav": true,
-		"slug": "seo_edteam"
+		"slug": "seo_desde_cero"
 	},
 	{
 		"id": "c_05",
@@ -61,7 +61,7 @@
 		"link_mega": "",
 		"img": [true, "https://ed.team/_next/image?url=https%3A%2F%2Fedteam-media.s3.amazonaws.com%2Fcourses%2Fbig%2F61514891-66e9-4cc2-b5e5-e7f6c9a62e64.png&w=1080&q=75"],
 		"idTags": ["04", "05"],
-		"slug": "enrutamiento_de_redes_edteam"
+		"slug": "enrutamiento_de_redes"
 
 	},
 	{
@@ -72,7 +72,7 @@
 		"link_mega": "",
 		"img": [true, "https://i.imgur.com/SwWKT3H.jpg"],
 		"idTags": ["04", "06"],
-		"slug": "c++_udemy"
+		"slug": "c++_desde_cero"
 
 	}, {
 		"id": "c_08",
@@ -82,7 +82,7 @@
 		"link_mega": "",
 		"img": [true, "https://i.imgur.com/x1iW2Pc.jpg"],
 		"idTags": ["04", "07"],
-		"slug": "python_mastermind"
+		"slug": "python"
 	},
 	{
 		"id": "c_09",
@@ -92,7 +92,7 @@
 		"link_mega": "",
 		"img": [true, "https://i.imgur.com/9y9txfr.jpg"],
 		"idTags": ["04", "06"],
-		"slug": "flutter_udemy"
+		"slug": "flutter_intermedio"
 	},
 	{
 		"id": "c_10",
@@ -113,7 +113,7 @@
 		"img": [true, "https://i.imgur.com/7m6t1iH.jpg"],
 		"idTags": ["04", "05"],
 		"fav": true,
-		"slug": "node_js_edteam"
+		"slug": "node_js_desde_cero"
 	},
 	{
 		"id": "c_12",
@@ -124,7 +124,7 @@
 		"img": [true, "https://i.imgur.com/25XGQEb.jpg"],
 		"idTags": ["04", "02", "05", "01"],
 		"fav": true,
-		"slug": "css_edteam"
+		"slug": "css_desde_cero"
 	},
 	{
 		"id": "c_13",
@@ -157,7 +157,7 @@
 		"link_mega": "",
 		"img": [true, "https://i.imgur.com/Jm0UsUN.jpg"],
 		"idTags": ["01", "04", "05"],
-		"slug": "figma_edteam"
+		"slug": "figma_desde_cero"
 
 	},
 	{
@@ -261,7 +261,7 @@
 		"link_drive": "http://fumacrom.com/3ADth",
 		"link_mega": "",
 		"img": [true, "https://i.imgur.com/TczMN8l.jpg"],
-		"idTags": ["01", "04", "05"],
+		"idTags": ["004", "05"],
 		"slug": "unity_desde_cero"
 	},
 		{
@@ -294,5 +294,15 @@
 		"img": [true, "https://i.imgur.com/RMeCS6R.jpg"],
 		"idTags": ["04", "05"],
 		"slug": "flutter_desde_cero"
+	},
+		{
+		"id": "c_29",
+		"name": "Bitcoin desde cero",
+		"description": "Maneja tus finanzas y tus negocios con la moneda electrónica que transformó la economía.",
+		"link_drive": "http://fumacrom.com/3CA1A",
+		"link_mega": "",
+		"img": [true, "https://i.imgur.com/tYOqv6V.jpg"],
+		"idTags": ["08","04", "05"],
+		"slug": "bitcoin_desde_cero"
 	}
 ]

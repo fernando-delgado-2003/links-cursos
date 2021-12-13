@@ -1,9 +1,74 @@
 {
-  "redirects": [
-    { 
-      "source": "/js_desde_cero",
-      "destination": "/course/?id=c_01", 
-      "permanent": true
+	"redirects": [
+		{
+			"source": "/js_desde_cero",
+			"destination": "/course/?id=c_01",
+			"permanent": true
+    },
+		{
+			"source": "/css_desde_cero",
+			"destination": "/course/?id=c_12",
+			"permanent": true
+    },
+		{
+			"source": "/html_desde_cero",
+			"destination": "/course/?id=c_24",
+			"permanent": true
+    },
+		{
+			"source": "/css_avanzado",
+			"destination": "/course/?id=c_20",
+			"permanent": true
+    },
+		{
+			"source": "/react_desde_cero_2021",
+			"destination": "/course/?id=c_21",
+			"permanent": true
+    },
+		{
+			"source": "/flex_box_y_grid",
+			"destination": "/course/?id=c_17",
+			"permanent": true
+    },
+		{
+			"source": "/responsive_web_design",
+			"destination": "/course/?id=c_02",
+			"permanent": true
+    },
+		{
+			"source": "/enrutamiento_de_redes",
+			"destination": "/course/?id=c_06",
+			"permanent": true
+    },
+		{
+			"source": "/seo_desde_cero",
+			"destination": "/course/?id=c_04",
+			"permanent": true
+    },
+		{
+			"source": "/python",
+			"destination": "/course/?id=c_08",
+			"permanent": true
+    },
+		{
+			"source": "/node_js_desde_cero",
+			"destination": "/course/?id=c_11",
+			"permanent": true
+    },
+		{
+			"source": "/c++_desde_cero",
+			"destination": "/course/?id=c_07",
+			"permanent": true
+    },
+		{
+			"source": "/figma_desde_cero",
+			"destination": "/course/?id=c_15",
+			"permanent": true
+    },
+		{
+			"source": "/flutter_intermedio",
+			"destination": "/course/?id=c_09",
+			"permanent": true
     }
   ]
 }

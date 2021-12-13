@@ -33,5 +33,10 @@
 			"id": "07",
 			"color": "#FF2877",
 			"tag": "MASTERMIND"
+		},
+		{
+			"id": "08",
+			"color": "#FFD700",
+			"tag": "Finanzas"
 		}
 ]
