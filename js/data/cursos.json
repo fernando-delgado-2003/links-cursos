@@ -304,5 +304,26 @@
 		"img": [true, "https://i.imgur.com/tYOqv6V.jpg"],
 		"idTags": ["08","04", "05"],
 		"slug": "bitcoin_desde_cero"
+	},
+	{
+		"id": "c_30",
+		"name": "C# desde Cero",
+		"description": "Aprende a programar para web, móvil, escritorio o videojuegos con el lenguaje número 1 de Microsoft.",
+		"link_drive": "http://fumacrom.com/3Drwi",
+		"link_mega": "",
+		"img": [true, "https://i.imgur.com/lsK5AD6.jpg"],
+		"idTags": ["04", "05"],
+		"slug": "csharp"
+	},
+	{
+		"id": "c_31",
+		"name": "Adobe InDesign desde cero",
+		"description": "Aprende diseño y diagramación con la herramienta líder en creación de publicaciones impresas y digitales.",
+		"link_drive": "http://fumacrom.com/3Dte4",
+		"link_mega": "",
+		"img": [true, "https://i.imgur.com/ojEVEdY.jpg"],
+		"idTags": ["04", "05"],
+		"slug": "adobe_indesing"
 	}
+
 ]
