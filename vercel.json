@@ -56,7 +56,7 @@
 			"permanent": true
     },
 		{
-			"source": "/c++_desde_cero",
+			"source": "/cplus_desde_cero",
 			"destination": "/course/?id=c_07",
 			"permanent": true
     },
