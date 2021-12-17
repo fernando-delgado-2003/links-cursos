@@ -324,6 +324,36 @@
 		"img": [true, "https://i.imgur.com/ojEVEdY.jpg"],
 		"idTags": ["04", "05"],
 		"slug": "adobe_indesing"
+	},
+	{
+		"id": "c_32",
+		"name": "Go desde cero",
+		"description": "Adquiere los conocimientos básicos para iniciar a programar con Go.",
+		"link_drive": "http://fumacrom.com/3Er2l",
+		"link_mega": "",
+		"img": [true, "https://i.imgur.com/pSTrzdY.jpg"],
+		"idTags": ["01", "04", "05"],
+		"slug": "go_desde_cero"
+	},
+	{
+		"id": "c_33",
+		"name": "Diseño UI",
+		"description": "Aprende las técnicas y buenas prácticas para crear diseños de interfaces hermosos, funcionales e impactantes.",
+		"link_drive": "http://fumacrom.com/3Er5z",
+		"link_mega": "",
+		"img": [true, "https://i.imgur.com/K5GonfO.jpg"],
+		"idTags": ["01", "04", "05"],
+		"slug": "diseño_ui"
+	},
+	{
+		"id": "c_",
+		"name": "",
+		"description": "",
+		"link_drive": "",
+		"link_mega": "",
+		"img": [true, ""],
+		"idTags": ["01", "04", "05"],
+		"slug": ""
 	}
 
 ]
