@@ -8,7 +8,7 @@
 		"img": [true, "https://i.imgur.com/SgYCPcX.jpg"],
 		"idTags": ["01", "03", "04", "05"],
 		"fav": true,
-		"slug": "js_edteam"
+		"slug": "js_desde_cero"
 	},
 	{
 		"id": "c_02",
@@ -29,7 +29,7 @@
 		"link_mega": "",
 		"img": [true, "https://i.imgur.com/FqhMv6q.jpg"],
 		"idTags": ["01", "05", "04"],
-		"slug": "typescript_edteam"
+		"slug": "typescript_desde_cero"
 	},
 	{
 		"id": "c_04",
@@ -50,7 +50,7 @@
 		"link_mega": "",
 		"img": [true, "https://i.imgur.com/Jew19Qx.jpg"],
 		"idTags": ["01", "05", "04"],
-		"slug": "google_analytics_edteam"
+		"slug": "google_analytics_desde_cero"
 
 	},
 	{
@@ -72,7 +72,7 @@
 		"link_mega": "",
 		"img": [true, "https://i.imgur.com/SwWKT3H.jpg"],
 		"idTags": ["04", "06"],
-		"slug": "c++_desde_cero"
+		"slug": "cplus_desde_cero"
 
 	}, {
 		"id": "c_08",
@@ -102,7 +102,7 @@
 		"link_mega": "",
 		"img": [true, "https://i.imgur.com/jZtbUI0.jpg"],
 		"idTags": ["04", "05", "01"],
-		"slug": "svg_edteam"
+		"slug": "svg_desde_cero"
 	},
 	{
 		"id": "c_11",
@@ -135,7 +135,7 @@
 		"img": [true, "https://i.imgur.com/tmSUw1m.jpg"],
 		"idTags": ["05"],
 		"fav": true,
-		"slug": "ingles_edteam"
+		"slug": "ingles_desde_cero"
 
 	},
 	{
@@ -146,7 +146,7 @@
 		"link_mega": "",
 		"img": [true, "https://i.imgur.com/BGSG2uA.jpg"],
 		"idTags": ["01", "04", "05"],
-		"slug": "html_canvas_edteam"
+		"slug": "html_canvas_desde_cero"
 
 	},
 	{
@@ -168,7 +168,7 @@
 		"link_mega": "",
 		"img": [true, "https://i.imgur.com/w9lNyQg.jpg"],
 		"idTags": ["01", "04", "05"],
-		"slug": "mysql_edteam"
+		"slug": "mysql_desde_cero"
 
 	},
 	{
@@ -190,7 +190,7 @@
 		"link_mega": "",
 		"img": [true, "https://i.imgur.com/9JBI0ea.jpg"],
 		"idTags": ["01", "05", "04"],
-		"slug": "wordpress_edteam"
+		"slug": "wordpress_desde_cero"
 
 	},
 	{
