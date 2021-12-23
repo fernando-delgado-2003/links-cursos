@@ -261,7 +261,7 @@
 		"link_drive": "http://fumacrom.com/3ADth",
 		"link_mega": "",
 		"img": [true, "https://i.imgur.com/TczMN8l.jpg"],
-		"idTags": ["004", "05"],
+		"idTags": ["04", "05"],
 		"slug": "unity_desde_cero"
 	},
 		{
@@ -346,14 +346,24 @@
 		"slug": "diseño_ui"
 	},
 	{
-		"id": "c_",
-		"name": "",
-		"description": "",
-		"link_drive": "",
+		"id": "c_34",
+		"name": "Laravel 8 desde cero",
+		"description": "Domina el framework más usado y amigable de PHP en su última versión.",
+		"link_drive": "http://fumacrom.com/3JLJA",
 		"link_mega": "",
-		"img": [true, ""],
+		"img": [true, "https://i.imgur.com/U8kbkUD.jpg"],
 		"idTags": ["01", "04", "05"],
-		"slug": ""
+		"slug": "laravel_8_desde_cero"
+	},
+	{
+		"id": "c_35",
+		"name": "Marketing para emprendedores",
+		"description": "Crea estrategias de marketing efectivas sin los millones de dólares que gastan las grandes empresas.",
+		"link_drive": "http://fumacrom.com/3JLQC",
+		"link_mega": "",
+		"img": [true, "https://i.imgur.com/ndQKWVI.jpg"],
+		"idTags": ["04", "05"],
+		"slug": "marketing_para_emprendedores"
 	}
 
 ]
