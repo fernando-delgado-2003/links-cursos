@@ -75,6 +75,7 @@ fetch("../js/data/cursos.json")
 		document.getElementsByTagName('head')[0].appendChild(script)
 		document.getElementsByTagName('head')[0].appendChild(script2)
 		document.querySelector("main").innerHTML = `
+
 		<div class="course">
 			<img src="${resFilter[0]["img"][1]}" alt="" />
 			<div class="tags">
@@ -115,6 +116,16 @@ fetch("../js/data/cursos.json")
 				</a>
 			</div>
 		</div>
+	<div class="banner">
+		<a href="https://freecardano.com/?ref=421793">
+			<img src="../img/banner-pc.jpg" alt="" />
+			<p>*Banner puesto manualmente*
+			</br>
+			En los últimos dias sea dicho que la criptomoneda cardano va a subir a 5 dolares,
+			Por eso es este banner para que te prepares, no necesitas inversión para ganar ¡Empieza ahora antes que sea tarde!
+			</p>
+		</a>
+	</div>
 	`;
 
 		let intRandom = [],

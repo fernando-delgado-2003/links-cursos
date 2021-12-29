@@ -17,7 +17,18 @@ body {
 	font-family: 'Poppins', sans-serif;
 
 }
-
+.banner a{
+	text-decoration: none;
+	color: #5A5A5B;
+	font-size: .8rem;
+	text-align: center;
+}
+.banner a img{
+	width: 100%;
+}
+.banner a p{
+	
+}
 .header {
 	display: flex;
 	justify-content: space-between;
