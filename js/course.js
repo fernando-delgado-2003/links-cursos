@@ -117,7 +117,7 @@ fetch("../js/data/cursos.json")
 			</div>
 		</div>
 	<div class="banner">
-		<a href="https://freecardano.com/?ref=421793">
+		<a href="https://bit.ly/3HhcQD2">
 			<img src="../img/banner-pc.jpg" alt="" />
 			<p>*Banner puesto manualmente*
 			</br>
