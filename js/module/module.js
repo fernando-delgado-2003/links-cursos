@@ -26,7 +26,7 @@ function handleCards(data) {
 		nameFilter;
 	allTags = allTags == null ? JSON.parse(localStorage.getItem("tags")) : allTags;
 
-	data.forEach(item => {
+	data.forEach((item, index) => {
 		if (item.name != "") {
 
 			if (allTags != null) {
@@ -41,6 +41,19 @@ function handleCards(data) {
 
 			nameFilter = item.name.toLowerCase().replace(/[^\w\s]/gi, "").replace(/[ ]/g, "-");
 			templateCards += `
+			${
+				index == 4 || index == 15 ? `
+					<div class="banner card">
+		<!--Inicie el código de rollercoin.com-->
+				<a href="https://bit.ly/rollercoin-crypto">
+					<img src="//rollercoin.com/static/img/public_img/gen2/w300h250.gif" />
+				</a>
+				<!--Fin del código de rollercoin.com-->
+	</div>
+				`
+				:
+				``
+			}
 		<article class="card">
 				<header class="row row-left">
 					<a href="/course/?id=${item.id}">

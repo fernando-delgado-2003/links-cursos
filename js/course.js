@@ -117,15 +117,12 @@ fetch("../js/data/cursos.json")
 			</div>
 		</div>
 	<div class="banner">
-		<a href="https://bit.ly/3HhcQD2">
-			<img src="../img/banner-pc.jpg" alt="" />
-			<p>*Banner puesto manualmente*
-			</br>
-			En los últimos dias sea dicho que la criptomoneda cardano va a subir a 5 dolares,
-			Por eso es este banner para que te prepares, no necesitas inversión para ganar ¡Empieza ahora antes que sea tarde!
-			</p>
-		</a>
-	</div>
+			<!--Inicie el código de rollercoin.com-->
+					<a href="https://bit.ly/rollercoin-crypto">
+						<img src="//rollercoin.com/static/img/public_img/gen2/w300h250.gif" />
+					</a>
+					<!--Fin del código de rollercoin.com-->
+		</div>
 	`;
 
 		let intRandom = [],
